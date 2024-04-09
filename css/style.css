@@ -406,9 +406,14 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-top: 6rem;
-    /* width: 90%; */
+  
 }
-
+.container-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -465,12 +470,13 @@ nav {
 
 
 @media all and (max-width: 1200px)  {
-    .container-horizontal {
+    .container-horizontal, .container-inner {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 100%;
     }
+    
 
     .article-heading {
         font-size: 2rem;
@@ -529,7 +535,7 @@ nav {
     } 
 
      .article-heading {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 2.3rem;
     }
 
